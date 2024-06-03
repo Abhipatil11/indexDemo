@@ -10,6 +10,7 @@
     width: 100%;
     height: auto;
     z-index: 1;
+    object-fit: cover; /* Ensures the background covers the section */
   }
   
   .hero-content {
@@ -99,6 +100,25 @@
     .hero-content__logo {
       margin-right: 0;
       margin-bottom: 10px;
+    }
+  
+    .hero-content__text h1 {
+      font-size: 28px; /* Adjusted font size for mobile */
+    }
+  
+    .hero-content__text p {
+      font-size: 16px; /* Adjusted font size for mobile */
+    }
+  
+    .hero-content__text__btns .btn {
+      font-size: 14px; /* Adjusted button font size for mobile */
+      padding: 8px 16px; /* Adjusted padding for buttons on mobile */
+    }
+  
+    .bg-shape {
+      /* Ensure the background image covers the section on mobile */
+      object-fit: cover;
+      height: 100%; /* Make sure it covers the entire height */
     }
   }
   
