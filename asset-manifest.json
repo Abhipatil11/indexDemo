@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/indexDemo/static/css/main.4b6bf8b0.css",
-    "main.js": "/indexDemo/static/js/main.0da2b86e.js",
+    "main.css": "/indexDemo/static/css/main.e600d3b6.css",
+    "main.js": "/indexDemo/static/js/main.3349e4a8.js",
     "static/media/heroes-bg.png": "/indexDemo/static/media/heroes-bg.71ab9a13d73de3860763.png",
     "static/media/toyota-box.png": "/indexDemo/static/media/toyota-box.8968332b7901c6bb183c.png",
     "static/media/passat-box.png": "/indexDemo/static/media/passat-box.c78021e11cf230128bcc.png",
@@ -37,11 +37,11 @@
     "static/media/googleapp.svg": "/indexDemo/static/media/googleapp.e6493904327fe3f9b89c7c75a4f3ae74.svg",
     "static/media/appstore.svg": "/indexDemo/static/media/appstore.35481c6295b0744dfcc00d35874fbdd8.svg",
     "index.html": "/indexDemo/index.html",
-    "main.4b6bf8b0.css.map": "/indexDemo/static/css/main.4b6bf8b0.css.map",
-    "main.0da2b86e.js.map": "/indexDemo/static/js/main.0da2b86e.js.map"
+    "main.e600d3b6.css.map": "/indexDemo/static/css/main.e600d3b6.css.map",
+    "main.3349e4a8.js.map": "/indexDemo/static/js/main.3349e4a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b6bf8b0.css",
-    "static/js/main.0da2b86e.js"
+    "static/css/main.e600d3b6.css",
+    "static/js/main.3349e4a8.js"
   ]
 }
