@@ -1,0 +1,104 @@
+.hero-section {
+    position: relative;
+    padding: 50px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .bg-shape {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-content__header {
+    z-index: 10;
+  }
+  
+  .fixed-phone {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 9999;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-content__logo {
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .hero-content__phone {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .hero-content__text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content__text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .hero-content__text__btns .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .hero-content__car-img {
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+  }
+  
+  .scroll-up {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
+  }
+  
+  .scroll-up.show-scroll {
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    .fixed-phone {
+      position: static;
+      margin-bottom: 20px;
+    }
+  
+    .hero-content__header {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hero-content__logo {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
+  
